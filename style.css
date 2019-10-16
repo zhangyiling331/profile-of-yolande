@@ -1,0 +1,76 @@
+/*Colors and fonts*/
+body{
+	background: rgb(250,270,230);
+	color: rgb(90,90,90);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+}
+h1,h2,{font-family: Roboto;}
+h1{color: rgb(200,190,107);
+font-size: 32px;}
+h2{color:rgb(240,190,107);
+	font-size: 24px;
+    font-weight: lighter;}
+
+a{
+    font-family: "Roboto",sans-serif
+	text-decoration: none;
+	color:gray;
+	font-weight: bold;
+	}
+
+	a:hover{color:black;
+}
+
+
+
+
+/*Custom design with class*/
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media(max-width: 760px) {
+	.container{width: 600px;}
+
+    }
+
+@media(max-width:500px){
+	.container{
+		width: 400px;
+	}
+}
+
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px,10px,30px,rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{border-radius: 50%}
+
+.btn-green{
+	background-color: rgb(189,183,107);
+	color: white
+	padding:20px 30px;
+	border-radius: 4px;}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 40px;
+}
+#introduction p{
+	margin-bottom: 40px;
+}
